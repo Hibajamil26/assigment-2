@@ -1,0 +1,585 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    background-image: url(./image/justin-hu-XyE4BCI2GMc-unsplash.jpg);
+    height: 550px;
+    width: 100%;
+    background-size: cover;
+    background-position: bottom;
+    opacity: 70%;
+    display: flex;
+
+}
+
+#logo {
+    height: 50px;
+    width: 200px;
+    padding: 30px;
+    font-size: 28px;
+    color: black;
+}
+
+
+.links {
+    height: 80px;
+    width: 50%;
+    margin-left: 45%;
+    padding: 35px;
+
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 30px;
+}
+
+.links a:hover {
+    color: red
+}
+
+
+.text {
+    height: 250px;
+    width: 50%;
+    position: absolute;
+    margin-top: 190px;
+    padding: 60px;
+    line-height: 1.5;
+}
+
+.text h1 {
+    color: aliceblue;
+}
+
+.text p {
+    color: aliceblue;
+    font-size: 22px;
+}
+
+.text button {
+    width: 135px;
+    height: 35px;
+    font-size: 16px;
+    border: none;
+    margin-top: 10px;
+}
+
+.text button:hover {
+    background-color: rgb(47, 178, 226);
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+.vacations {
+    height: 380px;
+    width: 100%;
+}
+
+.box-main {
+    margin-top: 50px;
+}
+
+.vacations h1 {
+    padding: 30px;
+    padding-left: 90px;
+}
+
+.one,
+.two,
+.three,
+.four {
+    height: 200px;
+    width: 200px;
+}
+
+.box-main {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tour {
+    height: 620px;
+    width: 100%;
+
+}
+
+.tour h1 {
+    text-align: center;
+    padding-top: 30px;
+    font-weight: bolder;
+    font-size: 40px;
+
+}
+
+.tour-box {
+    display: flex;
+    margin-top: 60px;
+    width: 75%;
+    margin-left: 170px;
+
+}
+
+.one-tour,
+.two-tour,
+.three-tour {
+    height: 350px;
+    width: 300px;
+    border-radius: 5%;
+    margin-left: 10px;
+}
+
+
+.one-tour:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+
+.two-tour:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+
+.three-tour:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.one-tour {
+    background-image: url(./image/chris-karidis-nnzkZNYWHaU-unsplash.jpg);
+    background-size: cover;
+    background-position: right;
+}
+
+.two-tour {
+    background-image: url(./image/pietro-de-grandi-T7K4aEPoGGk-unsplash.jpg);
+    background-size: cover;
+}
+
+.three-tour {
+    background-image: url(./image/kamran-norollahi-KwP58z9zJeE-unsplash.jpg);
+    background-size: cover;
+}
+
+.one-tour,
+.two-tour,
+.three-tour p {
+    color: white;
+    font-size: 28px;
+    font-weight: 900;
+    padding-left: 220px;
+    padding-top: 20px;
+
+}
+
+
+.stars {
+    height: 40px;
+    width: 100%;
+}
+
+#paris {
+    display: inline-block;
+    padding-left: 190px;
+
+
+}
+
+#land {
+    display: inline-block;
+    padding-left: 55px;
+}
+
+#nigeria {
+    display: inline-block;
+    padding-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.destinations {
+    height: 700px;
+    width: 75%;
+    margin-left: 13%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.destinations h1 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.destination-div-one {
+    height: 250px;
+    width: 80%;
+    margin-left: 90px;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.destination-div-two {
+    height: 250px;
+    width: 80%;
+    margin-top: 2%;
+    margin-left: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#img-one {
+    height: 250px;
+    width: 240px;
+    background-color: rgb(9, 46, 33);
+    background-image: url(./image/christoph-schulz-7tb-b37yHx4-unsplash.jpg);
+    background-size: cover;
+    border-radius: 5px;
+
+}
+
+#img-two {
+    height: 250px;
+    width: 240px;
+    background-image: url(./image/cam-stockdale-JHK6ucFy1B0-unsplash.jpg);
+    background-size: cover;
+    border-radius: 5px;
+}
+
+
+#img-three {
+    height: 250px;
+    width: 240px;
+    background-image: url(./image/neom-jTxhUMyPTrE-unsplash.jpg);
+    background-size: cover;
+    border-radius: 5px;
+}
+
+
+#img-four {
+    height: 250px;
+    width: 240px;
+    background-image: url(./image/jessica-furtney-zhqD0tw1peA-unsplash.jpg);
+    background-size: cover;
+    border-radius: 5px;
+
+
+
+}
+
+#img-five {
+    height: 250px;
+    width: 240px;
+    background-image: url(./image/agata-ciosek-EdRPFqcsgIg-unsplash.jpg);
+    background-size: cover;
+    border-radius: 5px;
+}
+
+
+#img-six {
+    height: 250px;
+    width: 240px;
+    background-image: url(./image/laurel-balyeat-ExarETx4xNA-unsplash.jpg);
+    background-size: cover;
+    border-radius: 5px;
+}
+
+
+
+
+
+#img-one:hover {
+    filter: brightness(100%) hue-rotate(45deg);
+    transform: scale(1.08);
+    cursor: pointer;
+}
+
+
+
+
+
+#img-two:hover {
+    filter: brightness(100%) hue-rotate(45deg);
+    transform: scale(1.08);
+    cursor: pointer;
+}
+
+
+
+
+#img-three:hover {
+    filter: brightness(100%) hue-rotate(45deg);
+    transform: scale(1.08);
+    cursor: pointer;
+}
+
+
+
+#img-four:hover {
+    filter: brightness(100%) hue-rotate(45deg);
+    transform: scale(1.08);
+    cursor: pointer;
+}
+
+
+
+#img-five:hover {
+    filter: brightness(100%) hue-rotate(45deg);
+    transform: scale(1.08);
+    cursor: pointer;
+}
+
+
+
+
+#img-six:hover {
+    filter: brightness(100%) hue-rotate(45deg);
+    transform: scale(1.08);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.newsletter {
+    height: 100px;
+    width: 80%;
+    margin-top: 40px;
+    display: flex;
+    margin-left: 20%;
+}
+
+.para {
+    height: 100%;
+    width: 40%;
+
+}
+
+.para p {
+    padding-top: 10px;
+    color: grey;
+}
+
+.input {
+    height: 100%;
+    width: 50%;
+}
+
+
+#email {
+    height: 30px;
+    width: 260px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 5px;
+    outline: none;
+    padding: 20px 90px 20px 30px;
+    box-shadow: 5px 8px 20px rgba(85, 85, 85, 0.205);
+}
+
+
+#submit {
+
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 12px 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: rgba(128, 0, 128, 0.693);
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main-div-foot {
+    height: 270px;
+    width: 100%;
+    background-color: rgba(128, 0, 128, 0.885);
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.quik-link {
+    height: 250px;
+    width: 20%;
+    margin-top: 30px;
+}
+
+.quik-link h2 {
+    margin-bottom: 15px;
+    color: white;
+}
+
+.quik-link h2:hover {
+    text-decoration: underline rgb(234, 80, 142);
+}
+
+.quik-link a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.782);
+    font-size: 15px;
+    line-height: 2;
+    margin-top: 20px;
+}
+
+.quik-link a:hover {
+    color: rgb(234, 80, 142);
+}
+
+
+.support {
+    height: 250px;
+    width: 20%;
+    margin-top: 30px;
+}
+
+.support a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.782);
+    font-size: 15px;
+    line-height: 2;
+    margin-top: 20px;
+}
+
+
+.support a:hover {
+    color: rgb(234, 80, 142);
+}
+
+.support h2 {
+    margin-bottom: 15px;
+    color: white;
+}
+
+.support h2:hover {
+    text-decoration: underline rgb(234, 80, 142);
+}
+
+.contact {
+    height: 250px;
+    width: 20%;
+    margin-top: 30px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.782);
+    font-size: 15px;
+    line-height: 2;
+    margin-top: 20px;
+}
+
+.contact a:hover {
+    color: rgb(234, 80, 142);
+}
+
+.contact h2 {
+    margin-bottom: 15px;
+    color: white;
+}
+
+.contact h2:hover {
+    text-decoration: underline rgb(234, 80, 142);
+}
+
+.connect {
+    height: 250px;
+    width: 20%;
+    margin-top: 30px;
+}
+
+.connect h2 {
+    margin-bottom: 15px;
+    color: white;
+}
+
+.connect h2:hover {
+    text-decoration: underline rgb(234, 80, 142);
+}
+
+.connect i {
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.782);
+    border-radius: 30%;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.connect i:hover {
+    color: rgb(231, 67, 122);
+}
